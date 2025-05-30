@@ -1,6 +1,7 @@
 # EpiblastOrientationMaps
 
 Repository analyzing epiblast orientation maps supporting
+- _"Boundary-guided cell alignment drives mouse epiblast maturation."_ by T. Ichikawa, P. C. Guruciaga, S. Hu, S. Plunder, M. Makino, M. Hamaji, A. Stokkermans, S. Yoshida, A. Erzberger, T. Hiiragi.
 - _"Boundary geometry controls a topological defect transition that determines lumen nucleation in embryonic development"_ by P. C. Guruciaga, T. Ichikawa, S. Plunder, T. Hiiragi, A. Erzberger.
 
 ## System Requirements
@@ -49,7 +50,7 @@ Analysis of the orientation maps takes < 10 minutes on a standard desktop comput
 ### Running the Analysis
 1. Open one of the analysis notebooks:
    - `wildtype_analysis.ipynb`: For analyzing wildtype data
-   - `mutant_analysis.ipynb`: For analyzing mutant data
+   - `demo_analysis.ipynb`: For analyzing a demonstration dataset
    - `analysis_tools.ipynb`: Contains shared functions and utilities
 
 2. Execute the cells in order by pressing Shift+Enter or by clicking the "Run" button in the Jupyter interface
@@ -59,7 +60,7 @@ Analysis of the orientation maps takes < 10 minutes on a standard desktop comput
 ### Example Usage
 ```python
 # Run the analysis tools notebook to load common functions
-%run wildtype_analysis.ipynb
+%run demo_analysis.ipynb
 
 # Load and process your data
 # (See specific notebooks for detailed examples)
