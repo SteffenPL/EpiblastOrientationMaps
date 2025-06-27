@@ -20,6 +20,14 @@ Repository analyzing epiblast orientation maps supporting
   - statannotations
   - nbformat (for notebook imports)
 
+There requirements can be installed via `conda` as
+```
+conda install numpy pandas matplotlib seaborn scipy tqdm statannotations nbformat 
+pip install more_itertools
+```
+where the last line is needed as `more_itertools` is only available via `pip`. 
+
+
 ### Operating Systems
 - MacOS 18.5
 - Windows 11
